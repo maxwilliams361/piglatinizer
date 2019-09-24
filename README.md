@@ -1,6 +1,8 @@
-# Pig Latinizer Project
+# itscodenation/piglatinizer
 
-## Overview: 
+
+
+## Overview:
 In this unit, coders will create a Pig Latinizer. The Pig Latinizer will take a user's sentence and display the sentence in pig latin on the screen. To create this project, coders will use jQuery to take user input and display data, functions to separate concerns, string methods to separate and transform words, for loops to iterate over multiple items in an array, and array methods to add items and join items into a sentence. Follow the steps below to make your very own site! Make sure to check off your items as you complete them. [ ] => [x]
 
 ## Day 1
@@ -12,7 +14,7 @@ In this unit, coders will create a Pig Latinizer. The Pig Latinizer will take a 
 - [ ] Add, commit, and push your changes
 - [ ] Make your site live on gh-pages
 ### index.html
-- [ ] 
+- [ ]
 ### JS
 - [ ]
 ### Wrap
@@ -20,15 +22,15 @@ In this unit, coders will create a Pig Latinizer. The Pig Latinizer will take a 
 
 ## Day 2
 ### JS
-- [ ] 
-- [ ] 
+- [ ]
+- [ ]
 ### Wrap
 - [ ] Push your changes!
 
 
 ## Day 3
 ### JS
-- [ ] 
+- [ ]
 ### Wrap
 - [ ] Push your changes!
 
@@ -41,7 +43,7 @@ In this unit, coders will create a Pig Latinizer. The Pig Latinizer will take a 
 
 ## Projects Extensions:
 * Create another input box that transforms pig latin into english
-* Create you own secret encoder that encrypts messages 
+* Create you own secret encoder that encrypts messages
 * Try out the [passcode](https://jsbin.com/tawogirebo/edit?html,js,output)
 
 ## References/Tools

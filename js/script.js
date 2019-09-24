@@ -1,19 +1,20 @@
-// Pig Latin takes the first consonant (or consonant cluster) of an English 
+// Pig Latin takes the first consonant (or consonant cluster) of an English
 // word, moves it to the end of the word and suffixes an ay, or if a word
 // begins with a vowel you just add ay to the end. For example, pig becomes
 // igpay, banana becomes ananabay, and aadvark becomes aadvarkay.
 
-$( document ).ready(function() {
-  
-
-
-
+$("button").click(function(){
+    let message=$(".inputone").val();
+    let message2="ay"
+    let message3= message + message2;
+    $(".translation").text(message3);
+    $(".inputone").val(" ");
 });
 
 
-// Takes a word as a parameter and returns a transfromed word. 
+// Takes a word as a parameter and returns a transfromed word.
 function wordToPigLatin(word) {
-	
+
 }
 
 
