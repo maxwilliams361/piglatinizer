@@ -1,14 +1,12 @@
-// Pig Latin takes the first consonant (or consonant cluster) of an English
-// word, moves it to the end of the word and suffixes an ay, or if a word
-// begins with a vowel you just add ay to the end. For example, pig becomes
-// igpay, banana becomes ananabay, and aadvark becomes aadvarkay.
 
+let fullSentence=[];
 $("button").click(function(){
-    let message=$(".inputone").val();
-    let message2="ay"
-    let message3= message + message2;
-    $(".translation").text(message3);
+   let message=$(".inputone").val();
+   let messageMinusFirst=message.slice(1);
+   let firstLetter=message.charAt(0);
+    $(".translation").text(`${messageMinusFirst}${firstLetter}ay`);
     $(".inputone").val(" ");
+    fullSentence.push(message)
 });
 
 
